@@ -75,24 +75,6 @@ p {
   clear: both;
 }
 
-.alignright {
-  float: right;
-  margin-left: 15px;
-}
-
-.alignleft {
-  float: left;
-  margin-right: 15px !important;
-}
-
-.aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .admin-bar .site-header {
   top: 32px;
 }
@@ -109,7 +91,8 @@ Header Style Start
 */
 .site-header {
   padding: 15px 0;
-  box-shadow: 1px 2px 45px rgba(250, 175, 64, 0.2);
+  -webkit-box-shadow: 1px 2px 45px rgba(250, 175, 64, 0.2);
+          box-shadow: 1px 2px 45px rgba(250, 175, 64, 0.2);
   background-color: #ffffff;
 }
 
@@ -137,6 +120,7 @@ Header Style Start
   padding: 10px 20px;
   font-size: 20px;
   color: #999999;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
