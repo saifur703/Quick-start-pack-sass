@@ -1,0 +1,221 @@
+/*------Start Base CSS------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  vertical-align: middle;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 0 solid;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.fix:before,
+.fix:after {
+  content: "";
+  display: table;
+}
+
+.fix:after {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 15px !important;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.admin-bar .site-header {
+  top: 32px;
+}
+
+.section-padding {
+  padding: 70px 0px;
+}
+
+/*------End Base CSS------*/
+/*
+==============================
+Header Style Start
+==============================
+*/
+.site-header {
+  padding: 15px 0;
+  box-shadow: 1px 2px 45px rgba(250, 175, 64, 0.2);
+  background-color: #ffffff;
+}
+
+.site-header .site-logo a {
+  height: 35px;
+  display: inline-block;
+}
+
+.site-header .site-logo a img {
+  max-height: 100%;
+}
+
+.site-header .main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .main-menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.site-header .main-menu ul li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #999999;
+  transition: 0.3s;
+}
+
+.site-header .main-menu ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fcb03d;
+  text-align: left;
+  z-index: 2;
+  top: 50px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.site-header .main-menu ul li ul li {
+  display: block;
+}
+
+.site-header .main-menu ul li ul li a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  background-color: #eca233;
+}
+
+.site-header .main-menu ul li ul li ul {
+  left: 200px;
+}
+
+.site-header .main-menu ul li ul li:hover > ul {
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+.site-header .main-menu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+.site-header .main-menu ul li:hover ul ul {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.site-header .main-menu ul li.current-menu-item a,
+.site-header .main-menu ul li a:hover {
+  color: #fff;
+  background: #fcb03d;
+}
+
+/*
+==============================
+Header Style End 
+==============================
+*/
+/*
+==============================
+Footer Style Start 
+==============================
+*/
+.site-footer {
+  background: #fcb03d;
+  padding: 20px 0;
+}
+
+.site-footer .footer-content {
+  color: #fff;
+  font-size: 18px;
+}
+
+.site-footer .footer-content p {
+  margin-bottom: 0;
+}
+
+/*
+==============================
+Footer Style End 
+==============================
+*/
+/*# sourceMappingURL=style.css.map */
