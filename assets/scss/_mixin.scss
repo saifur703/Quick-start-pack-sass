@@ -1,3 +1,11 @@
 @mixin sectionPadding($padding-top-bottom: 50px, $padding-right-left: 0px) {
     padding: $padding-top-bottom $padding-right-left;
 }
+
+@mixin background($color: #DDD, $repeat: no-repeat, $attachment: scroll, $position: 0 0, $size: cover) {
+    background-color: $color;
+    background-repeat: $repeat;
+    background-attachment: $attachment;
+    background-position: $position;
+    background-size: $size;
+}
